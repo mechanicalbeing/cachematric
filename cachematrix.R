@@ -1,7 +1,7 @@
-## function makeCacheMatrix provides a list of functions and save the inverse of 
+## function makeCacheMatrix provides a list of functions and saves the inverse of 
 ## the matrix, function cachesolve checks if the inverse of the matrix is present
-## in cache and prints and if not then calculates it
-
+## in cache(m) and prints it and if not then calculates it and save the inverse in m through setin function
+ 
 
 makeCacheMatrix <- function(x = matrix()) {
   m<-NULL
@@ -13,7 +13,7 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
-## Write a short comment describing this function
+## This functions checks if the inverse of the rquired matrix is already present and if its present then it prints it if not it calculates it 
 
 cacheSolve <- function(x, ...) {
         ## Return a matrix that is the inverse of 'x'
